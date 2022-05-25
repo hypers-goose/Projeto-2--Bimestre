@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.43669322, g: 0.48429048, b: 0.56453955, a: 1}
+  m_IndirectSpecularColor: {r: 0.43669352, g: 0.48429084, b: 0.5645404, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,6 +401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1076826787}
+  - component: {fileID: 1076826788}
   m_Layer: 6
   m_Name: Scenario
   m_TagString: Untagged
@@ -427,6 +428,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1076826788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076826786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439dd648b40e04449ee6bea62929891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1376976012
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +453,7 @@ GameObject:
   - component: {fileID: 1376976017}
   - component: {fileID: 1376976016}
   - component: {fileID: 1376976015}
+  - component: {fileID: 1376976018}
   m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -524,6 +539,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376976012}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1376976018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376976012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439dd648b40e04449ee6bea62929891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1437181691
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +564,7 @@ GameObject:
   - component: {fileID: 1437181696}
   - component: {fileID: 1437181695}
   - component: {fileID: 1437181694}
+  - component: {fileID: 1437181697}
   m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -621,6 +650,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437181691}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1437181697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437181691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439dd648b40e04449ee6bea62929891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1501044397
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +675,7 @@ GameObject:
   - component: {fileID: 1501044400}
   - component: {fileID: 1501044399}
   - component: {fileID: 1501044398}
+  - component: {fileID: 1501044402}
   m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
@@ -719,6 +762,19 @@ Transform:
   m_Father: {fileID: 1076826787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1501044402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501044397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439dd648b40e04449ee6bea62929891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1502242396
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +787,7 @@ GameObject:
   - component: {fileID: 1502242400}
   - component: {fileID: 1502242399}
   - component: {fileID: 1502242398}
+  - component: {fileID: 1502242401}
   m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
@@ -816,6 +873,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502242396}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1502242401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502242396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6439dd648b40e04449ee6bea62929891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1001 &1576382101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1009,6 +1079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b196a4fdc2e8a444daba933fcb14dad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 50
   range: 100
   fpsCam: {fileID: 963194227}
