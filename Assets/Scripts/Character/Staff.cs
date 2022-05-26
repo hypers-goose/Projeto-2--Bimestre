@@ -14,6 +14,9 @@ public class Staff : MonoBehaviour
             Shoot();
         }
 
+        if(Input.GetButtonDown("Fire2")){
+            Create();
+        }
          
     }
     void Shoot()
@@ -30,5 +33,9 @@ public class Staff : MonoBehaviour
             }
 
             }
+        }
+
+        void Create(){
+            
         }
 }
