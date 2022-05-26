@@ -43,16 +43,17 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity*Time.deltaTime);
 
         if (Input.GetKeyDown (KeyCode.Alpha1)) {
-            transform.localScale = new Vector3 (1.0f, 1.0f, 1.0f);
+            transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
 
         } else if (Input.GetKeyDown (KeyCode.Alpha2)) {
 
             transform.position = new Vector3 (transform.position.x, transform.position.y + 0.5f, transform.position.z);
             transform.localScale = new Vector3 (1.25f, 1.25f, 1.25f);
+
         } else if (Input.GetKeyDown (KeyCode.Alpha3)) {
 
             transform.position = new Vector3 (transform.position.x, transform.position.y + 1.0f, transform.position.z);
-            transform.localScale = new Vector3 (1.5f, 1.5f, 1.5f);
+            transform.localScale = new Vector3 (2.5f, 2.5f, 2.5f);
         }
  
     }

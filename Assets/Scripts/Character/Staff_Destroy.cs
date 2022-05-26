@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Staff : MonoBehaviour
+public class Staff_Destroy : MonoBehaviour
 {
     public float damage = 10f;
     public float range = 100f;
@@ -12,10 +12,6 @@ public class Staff : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
-        }
-
-        if(Input.GetButtonDown("Fire2")){
-            Create();
         }
          
     }
@@ -34,8 +30,5 @@ public class Staff : MonoBehaviour
 
             }
         }
-
-        void Create(){
-            
-        }
 }
+
